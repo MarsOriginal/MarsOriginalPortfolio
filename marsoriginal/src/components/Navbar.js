@@ -20,8 +20,7 @@ function Navbar() {
         <img src={logo} alt="logo" className="logo"/>
         <div className="links">
             <Link to="/">Home</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/about">About</Link>
+            <Link to="/experience">Education</Link>
         </div>
     </div>
   )

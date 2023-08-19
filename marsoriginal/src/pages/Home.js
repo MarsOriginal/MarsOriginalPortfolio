@@ -1,6 +1,7 @@
 import React from 'react'
 import { Email } from '@material-ui/icons'
 import { Cursor, Typewriter } from 'react-simple-typewriter'
+import { Link } from '@material-ui/core';
 import '../styles/Home.css'
 
 
@@ -21,7 +22,9 @@ function Home() {
                         <Cursor cursorStyle='<'/>
                     </span>
                 </p>
-                <Email/>
+                <Link href="mailto:marsli2000@outlook.com" target="_blank" rel="noopener noreferrer" className='material-icons'>
+                    <Email/>
+                </Link>
             </div>
         </div>
         <div className="skills">

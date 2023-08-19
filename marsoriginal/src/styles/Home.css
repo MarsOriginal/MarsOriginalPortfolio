@@ -85,3 +85,6 @@
       font-size: 30px;
     }
   }
+  .material-icons:hover {
+    color: #333;
+  }
